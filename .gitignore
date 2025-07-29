@@ -1,0 +1,68 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+local/
+share/
+include/
+bin/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nox/
+.ipynb_checkpoints/ # Jupyter notebooks checkpoints
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Editors / OS generated files
+.idea/                          # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/                        # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store                       # macOS system files
+Thumbs.db                       # Windows thumbnail cache
+ehthumbs.db
+.project                        # Eclipse project files
+.classpath
+.settings/
+
+# Log files and generated outputs
+*.log
+*.log.*
+logs/
+tmp/
+temp/
+doc/img/                        # Assuming this contains generated output images
+test_frame.jpg                  # Generated test frame from video scripts
+
+# Large files - DO NOT UPLOAD TO GITHUB
+# Neural network models
+*.onnx                          # Specifically for yolov8m.onnx
+*.pt                            # Specifically for yolov8m.pt (PyTorch models)
+
+# Video files (often very large)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+bolt-detection.mp4              # Specific video files
+car-detection.mp4
+peoplenyc.mp4
+SampleVid.mp4
+
+# Virtual Environments specific to the project
+yolov8-onnx-env/                # Your specific environment
