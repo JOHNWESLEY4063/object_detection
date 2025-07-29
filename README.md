@@ -167,3 +167,17 @@ You can also run individual detection scripts directly from the terminal for spe
 ---
 
 ### **7. Project Structure**
+object_detection/
+├── .gitignore             # Files and directories to ignore for Git
+├── README.md              # Project documentation
+├── requirements.txt       # Python dependencies
+├── yolov8/                # Contains the core YOLOv8 inference class
+│   └── YOLOv8.py          # The class for loading and running YOLOv8 ONNX model
+├── app_gui.py             # The main Tkinter GUI application script
+├── image_object_detection.py # Standalone script for image detection
+├── input_image.jpg        # Sample input image
+├── instructions.txt       # Any specific instructions or notes
+├── object_detection_downloaded_video.py # Standalone script for local video detection
+├── object_detection_webcam.py # Standalone script for webcam detection
+├── object_detection_youtube.py # Standalone script for YouTube stream detection
+└── yolov8m.onnx           # (Download Separately) The YOLOv8m ONNX model file
