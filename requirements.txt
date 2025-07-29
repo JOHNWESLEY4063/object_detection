@@ -1,0 +1,6 @@
+opencv-python
+numpy
+onnxruntime # For CPU
+onnxruntime-gpu # If GPU is available and you want to use it
+tkinter # Built-in, usually no pip install needed, but good to note
+cap-from-youtube # Conditional import in app_gui.py and object_detection_youtube.py
